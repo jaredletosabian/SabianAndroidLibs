@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="bbuton_rounded_corner_radius">5dp</dimen>
+
+    <dimen name="bthumbnail_rounded_corner_radius">3dp</dimen>
+
+    <dimen name="padding_small">8dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace "tr.xip.errorview"
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 28
+    }
+}
+
+// Used to upload project to maven central
+//apply from: '../maven_push.gradle'

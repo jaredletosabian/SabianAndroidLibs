@@ -1,0 +1,8 @@
+<resources>
+    <string name="review">Review</string>
+
+    <string-array name="image_photo_sources">
+        <item>Pick from gallery</item>
+        <item>Capture new photo</item>
+    </string-array>
+</resources>

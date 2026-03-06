@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ef_BackgroundColor" format="color" />
+    <attr name="ef_OnBackgroundColor" format="color" />
+</resources>

@@ -1,0 +1,58 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		INJECTED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:7:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:8:5-98
+	android:name
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:8:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:9:5-94
+	android:name
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:9:22-91
+application
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:11:5-21:19
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:12:9-14:40
+	android:exported
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:13:13-109
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:16:13-104
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml:19:13-97
+uses-sdk
+INJECTED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/Desktop/Projects/Android/Libs/SmartLocation/src/main/AndroidManifest.xml

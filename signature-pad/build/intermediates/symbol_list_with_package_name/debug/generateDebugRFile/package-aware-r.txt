@@ -1,0 +1,8 @@
+com.github.gcacace.signaturepad
+attr canvasColor
+attr clearOnDoubleClick
+attr penColor
+attr penMaxWidth
+attr penMinWidth
+attr velocityFilterWeight
+styleable SignaturePad canvasColor clearOnDoubleClick penColor penMaxWidth penMinWidth velocityFilterWeight

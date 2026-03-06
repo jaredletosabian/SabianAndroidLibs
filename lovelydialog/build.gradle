@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace "com.yarolegovich.lovelydialog"
+    compileSdkVersion 29
+    //buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.core:core:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+}

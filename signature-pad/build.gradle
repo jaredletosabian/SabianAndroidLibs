@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace "com.github.gcacace.signaturepad"
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 28
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation group: 'androidx.lifecycle', name: 'lifecycle-extensions', version: '2.0.0-alpha1'
+    implementation fileTree(dir: 'libs', include: '*.jar')
+}
+
+// Used to upload project to maven central
+//apply from: '../maven_push.gradle'
