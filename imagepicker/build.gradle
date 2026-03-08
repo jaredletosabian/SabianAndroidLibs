@@ -68,4 +68,4 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
-apply from: '../publish-package.gradle'
+//apply from: '../publish-package.gradle'
