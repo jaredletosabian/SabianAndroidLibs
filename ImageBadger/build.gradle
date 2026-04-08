@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
+    namespace "ru.nikartm.support"
+
     compileSdkVersion 28
 
     defaultConfig {

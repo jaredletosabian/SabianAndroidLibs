@@ -4,6 +4,8 @@ plugins {
 }
 
 android {
+    namespace "com.gu.toolargetool"
+
     compileSdkVersion 30
 
     defaultConfig {

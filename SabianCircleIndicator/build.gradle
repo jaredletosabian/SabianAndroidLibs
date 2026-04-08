@@ -3,6 +3,7 @@ apply plugin: 'com.android.library'
 version = "1.2.2"
 
 android {
+    namespace "me.relex.circleindicator"
     compileSdkVersion 23
     buildToolsVersion '27.0.3'
 
